@@ -27,7 +27,7 @@ php artisan make:trait Foo
 
 The trait namespace is: `App\Traits`.
 
-### Trait generated (example):
+**Trait generated:**
 
 ```php
 <?php
@@ -45,6 +45,24 @@ trait Foo
     {
         return "Hello World";
     }
+}
+```
+
+### Import trait:
+
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Traits\Foo;
+use App\Http\Controllers\Controller;
+
+class PostController extends Controller
+{
+    use Foo;
+
+    // your controller methods HERE.
 }
 ```
 
