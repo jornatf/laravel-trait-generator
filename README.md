@@ -5,7 +5,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jornatf/laravel-trait-generator/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jornatf/laravel-trait-generator/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/jornatf/laravel-trait-generator.svg?style=flat-square)](https://packagist.org/packages/jornatf/laravel-trait-generator)
 
-Make trait with [artisan CLI](https://laravel.com/docs/master/artisan).
+A Laravel Package to make Trait with [artisan CLI](https://laravel.com/docs/master/artisan).
 
 > #### If you like this package you can [Buy me a Coffee](https://www.buymeacoffee.com/jornatf) ☕️
 
@@ -37,13 +37,13 @@ namespace App\Traits;
 trait Foo
 {
     /**
-     * My first method.
+     * Method description.
      *
-     * @return void
+     * @return string
      */
-    public function firstMethod()
+    public function methodName()
     {
-        // code here
+        return "Hello World";
     }
 }
 ```
