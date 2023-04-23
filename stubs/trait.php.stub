@@ -1,0 +1,16 @@
+<?php
+
+namespace DummyNamespace;
+
+trait DummyClass
+{
+    /**
+     * Method description.
+     *
+     * @return string
+     */
+    public function methodName()
+    {
+        return "Hello World";
+    }
+}
